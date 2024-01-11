@@ -1,0 +1,198 @@
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: "woodmart-font";
+	src: url("//wordpress/wp-content/themes/woodmart/fonts/woodmart-font-1-400.woff2?v=7.3.3") format("woff2");
+}
+
+.wd-popup.wd-promo-popup{
+	background-color:rgb(255,255,255);
+	background-image: url(http://wordpress/wp-content/uploads/2021/08/sweets-bakery-popup.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+}
+
+.page-title-default{
+	background-color:rgb(153,214,233);
+	background-image: url(http://wordpress/wp-content/uploads/2021/10/sweet-bakery-page-title.jpg);
+	background-size:cover;
+	background-position:center center;
+}
+
+.footer-container{
+	background-color:rgb(244,248,251);
+	background-image: none;
+}
+
+:root{
+--wd-text-font:"Jost", Arial, Helvetica, sans-serif;
+--wd-text-font-weight:400;
+--wd-text-color:#777777;
+--wd-text-font-size:16px;
+}
+:root{
+--wd-title-font:"Jost", Arial, Helvetica, sans-serif;
+--wd-title-font-weight:500;
+--wd-title-color:#242424;
+}
+:root{
+--wd-entities-title-font:"Jost", Arial, Helvetica, sans-serif;
+--wd-entities-title-font-weight:500;
+--wd-entities-title-color:#333333;
+--wd-entities-title-color-hover:rgb(51 51 51 / 65%);
+}
+:root{
+--wd-alternative-font:"Cookie", Arial, Helvetica, sans-serif;
+}
+:root{
+--wd-widget-title-font:"Jost", Arial, Helvetica, sans-serif;
+--wd-widget-title-font-weight:500;
+--wd-widget-title-transform:uppercase;
+--wd-widget-title-color:#333;
+--wd-widget-title-font-size:16px;
+}
+:root{
+--wd-header-el-font:"Jost", Arial, Helvetica, sans-serif;
+--wd-header-el-font-weight:500;
+--wd-header-el-transform:uppercase;
+--wd-header-el-font-size:13px;
+}
+html .main-page-wrapper .product-grid-item .product-wrapper .wd-entities-title, html .product-grid-item .price, html .product-grid-item .price > .amount, html .product-grid-item .price ins > .amount, html .product.product-grid-item del, html .product.product-grid-item del .amount{
+	font-size: 24px;
+}
+
+:root{
+--wd-primary-color:rgb(253,70,128);
+}
+:root{
+--wd-alternative-color:rgb(253,70,128);
+}
+:root{
+--wd-link-color:#333333;
+--wd-link-color-hover:#242424;
+}
+:root{
+--btn-default-bgcolor:#f7f7f7;
+}
+:root{
+--btn-default-bgcolor-hover:#efefef;
+}
+:root{
+--btn-accented-bgcolor:rgb(253,70,128);
+}
+:root{
+--btn-accented-bgcolor-hover:rgb(192,17,87);
+}
+:root{
+--notices-success-bg:#459647;
+}
+:root{
+--notices-success-color:#fff;
+}
+:root{
+--notices-warning-bg:#E0B252;
+}
+:root{
+--notices-warning-color:#fff;
+}
+
+	:root{
+					
+			
+							--wd-form-brd-radius: 0px;
+					
+					--wd-form-brd-width: 1px;
+		
+					--btn-default-color: #333;
+		
+					--btn-default-color-hover: #333;
+		
+					--btn-accented-color: #fff;
+		
+					--btn-accented-color-hover: #fff;
+		
+									--btn-default-brd-radius: 0px;
+				--btn-default-box-shadow: none;
+				--btn-default-box-shadow-hover: none;
+				--btn-default-box-shadow-active: none;
+				--btn-default-bottom: 0px;
+			
+			
+			
+					
+					
+							--btn-accented-bottom-active: -1px;
+				--btn-accented-brd-radius: 0px;
+				--btn-accented-box-shadow: inset 0 -2px 0 rgba(0, 0, 0, .15);
+				--btn-accented-box-shadow-hover: inset 0 -2px 0 rgba(0, 0, 0, .15);
+			
+			
+					
+							
+					--wd-brd-radius: 0px;
+		
+			}
+
+	
+	
+			:root{
+			--wd-container-w: 1222px;
+		}
+	
+			@media (min-width: 1239px) {
+			.platform-Windows .wd-section-stretch > .elementor-container {
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+		@media (min-width: 1222px) {
+			html:not(.platform-Windows) .wd-section-stretch > .elementor-container {
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+	
+			div.wd-popup.popup-quick-view {
+			max-width: 920px;
+		}
+	
+	
+	
+	
+			.woodmart-woocommerce-layered-nav .wd-scroll-content {
+			max-height: 223px;
+		}
+	
+						rs-slides :is([data-type=text],[data-type=button]) {
+				font-family: Jost !important;
+			}
+		
+					rs-slides :is(h1,h2,h3,h4,h5,h6)[data-type=text] {
+				font-family: Jost !important;
+			}
+			
+@font-face {
+	font-family: "Jost";
+	src: url("//wordpress/wp-content/uploads/2021/10/Jost-400-Book.woff2") format("woff2"), 
+url("//wordpress/wp-content/uploads/2021/10/Jost-Book.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Jost";
+	src: url("//wordpress/wp-content/uploads/2021/10/Jost-500-Medium.woff2") format("woff2"), 
+url("//wordpress/wp-content/uploads/2021/10/Jost-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Jost";
+	src: url("//wordpress/wp-content/uploads/2021/10/jost-600-semi.woff") format("woff2"), 
+url("//wordpress/wp-content/uploads/2021/10/Jost-Book.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
+}
+
